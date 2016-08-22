@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="185dp" >
+
+    <!-- 放置轮播图片位置 -->
+
+    <LinearLayout
+        android:id="@+id/ll_top_news_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+        
+     
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:id="@+id/ll_bottem"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#88000000"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 放置图片标题 -->
+
+        <TextView
+            android:id="@+id/tv_top_news_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="图片标题"
+            android:textColor="#F6F6F6" />
+        <!-- 放置图片中选中点的位置 -->
+
+        <LinearLayout
+
+            android:id="@+id/ll_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
